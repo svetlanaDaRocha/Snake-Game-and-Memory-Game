@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-image: url(./snake-game-scales-0r8mpi8r1ik79ktu.jpg); 
+    font-size: 1.7rem;
+}
+
+header {
+    display: flex;
+    justify-content: end;
+}
+
+header button {
+    padding: 10px ;
+    font-size: 20px;
+    margin: 10px;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+#snakeGame {
+    background-color: white; 
+}
+
+#memoryGame{
+    background-color: lightgrey;
+    outline: solid 2px white;
+    cursor: pointer;
+}
+
+#memoryGame a {
+    text-decoration: none;
+    color: black;
+}
+
+#memoryGame:hover {
+    background-color: rgb(226, 219, 219);
+    outline: none;
+}
+
+h1 {
+    font-family: "Sixtyfour Convergence", sans-serif; 
+    color: rgb(208, 241, 16);
+    margin: 20px 0;
+}
+
+#score {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#highScore {
+    color: rgb(208, 241, 16);
+    margin-bottom: 25px;
+}
+
+#startButton {
+    padding: 9px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    background-color: lightgrey;
+    outline: solid 2px white;
+    border-radius: 5px;
+}
+
+#startButton:hover {
+    background-color: white;
+    outline: none;
+}
+
+#speedButtons {
+    margin-top: 20px;
+}
+
+#speedButtons button {
+    margin: 5px;
+    padding: 7px;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: rgb(208, 241, 16);
+    border: solid 2px black;
+    border-radius: 6px;
+}
+
+#gameCanvas {
+    border: 5px solid rgb(208, 241, 16);
+    background-color: black;
+    display: block;
+    margin: 20px auto;
+}
