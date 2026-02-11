@@ -24,7 +24,7 @@ const speedTwo = document.getElementById('speedTwo');
 const speedThree = document.getElementById('speedThree');
 
 speedOne.addEventListener('click', ()=>{
-    changeSpeed(300);
+    changeSpeed(500);
     speedOne.style.background = 'lightgreen';
     speedTwo.style.background = 'rgb(208, 241, 16)';
     speedThree.style.background = 'rgb(208, 241, 16)';
